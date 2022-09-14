@@ -1,0 +1,77 @@
+:root {
+  --basic-color: rgb(32, 178, 170);
+  --darken-basic-color: rgb(25, 125, 120);
+  --accent-color: rgb(225, 75, 107);
+}
+
+body {
+    background-image: linear-gradient(rgb(246, 219, 222), rgb(255, 255, 255));
+    font-family: Arial;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  .decor{
+    color: var(--basic-color);
+    font-weight: bold;
+  }
+
+  span{
+    color: var(--accent-color);
+  }
+
+  h1 {
+    font-size: 72px;
+    color: var(--basic-color);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.3);
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  p {
+    font-size: 25px;
+  }
+  
+  #photo > img{
+    width:128px;
+    height:128px;
+    border-radius:50%;
+    border: 8px solid  var(--basic-color);
+    border-left: 8px solid var(--accent-color);
+    object-fit:cover;
+
+  }
+  
+/* Style all font awesome icons */
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 20px;
+  height:20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-github {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+/* Twitter */
+.fa-behance {
+  background: var(--accent-color);
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
